@@ -1,0 +1,109 @@
+/*********************************************************************************************************************************** General */
+.wrap *, .wrap :after, .wrap  :before {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+.wrap a:focus {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+input.rimar_save_button {
+	padding: 0px 40px !important;
+	margin-top: 5px !important;
+}
+
+
+/*********************************************************************************************************************************** Slider table */
+.rimar_slider_add {
+	margin-bottom: 30px;
+}
+
+table.rimar_slider_sortable {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+table.rimar_slider_sortable th {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #dddddd;
+	border-bottom: 20px solid #f1f1f1;
+}
+table.rimar_slider_sortable td {
+	padding: 10px;
+	vertical-align: middle;
+	background: #fff;
+	border: 1px solid #dddddd;
+	border-bottom: 20px solid #f1f1f1;
+}
+
+.rimar_slider_img {
+	text-align: center;
+}
+.rimar_slider_img img {
+	display: block;
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	max-height: 150px;
+	margin: 0px auto;
+}
+
+.rimar_slider_image_select {
+	margin-top: -10px !important;
+}
+
+.rimar_slider_link {
+	padding-top: 15px;
+}
+.rimar_slider_link input {
+	display: block;
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.rimar_slider_radio {
+	width: 200px;
+}
+.rimar_slider_radio div label {
+	display: inline-block;
+	font-weight: normal;
+	margin-bottom: 0px;
+}
+.rimar_slider_radio div label:first-child {
+	margin-bottom: 7px;
+}
+
+.rimar_slider_sort {
+	width: 40px;
+	color: #777;
+	background: #f1f1f1;
+	cursor: move;
+}
+.rimar_slider_sort:hover {
+	color: #fbae00;
+}
+
+.rimar_slider_remove {
+	width: 40px;
+	background: #f1f1f1;
+}
+.rimar_slider_remove a {
+	display: inline-block;
+	color: red;
+}
+.rimar_slider_remove a:hover {
+	color: white;
+	background: red;
+}

@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i');
+
+@font-face{font-family:Font Awesome\ 5 Brands;font-style:normal;font-weight:400;src:url(libs/fontawesome/webfonts/fa-brands-400.eot);src:url(libs/fontawesome/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(libs/fontawesome/webfonts/fa-brands-400.woff2) format("woff2"),url(libs/fontawesome/webfonts/fa-brands-400.woff) format("woff"),url(libs/fontawesome/webfonts/fa-brands-400.ttf) format("truetype"),url(libs/fontawesome/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:Font Awesome\ 5 Brands}
+@font-face{font-family:Font Awesome\ 5 Free;font-style:normal;font-weight:400;src:url(libs/fontawesome/webfonts/fa-regular-400.eot);src:url(libs/fontawesome/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(libs/fontawesome/webfonts/fa-regular-400.woff2) format("woff2"),url(libs/fontawesome/webfonts/fa-regular-400.woff) format("woff"),url(libs/fontawesome/webfonts/fa-regular-400.ttf) format("truetype"),url(libs/fontawesome/webfonts/fa-regular-400.svg#fontawesome) format("svg")}.far{font-weight:400}
+@font-face{font-family:Font Awesome\ 5 Free;font-style:normal;font-weight:900;src:url(libs/fontawesome/webfonts/fa-solid-900.eot);src:url(libs/fontawesome/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(libs/fontawesome/webfonts/fa-solid-900.woff2) format("woff2"),url(libs/fontawesome/webfonts/fa-solid-900.woff) format("woff"),url(libs/fontawesome/webfonts/fa-solid-900.ttf) format("truetype"),url(libs/fontawesome/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.far,.fas{font-family:Font Awesome\ 5 Free}.fa,.fas{font-weight:900}
+	
+@font-face{font-family:'Glyphicons Halflings';src:url('libs/bootstrap/fonts/glyphicons-halflings-regular.eot');src:url('libs/bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('libs/bootstrap/fonts/glyphicons-halflings-regular.woff2') format('woff2'),url('libs/bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'),url('libs/bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),url('libs/bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg')}
+
+
+body#tinymce.wp-editor {
+	font-family: 'Open Sans', Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	line-height: 22px;
+	color: #444444;
+	font-weight: normal;
+	word-wrap: break-word;
+	max-width: 1130px;
+	outline: 1px dashed #aaaaaa;
+}
+body#tinymce.wp-editor * {
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body#tinymce.wp-editor a, body#tinymce.wp-editor a:link, body#tinymce.wp-editor a:visited {
+	color: #333333;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	-webkit-transition: color 0.15s ease, background 0.15s ease;
+	   -moz-transition: color 0.15s ease, background 0.15s ease;
+			transition: color 0.15s ease, background 0.15s ease;
+}
+body#tinymce.wp-editor a:hover, body#tinymce.wp-editor a:focus {
+	color: #fcd801;
+	text-decoration: none;
+	outline: none;
+}
+
+body#tinymce.wp-editor strong {
+	font-weight: 600;
+}
+
+body#tinymce.wp-editor p {
+	margin: 0px 0px 15px 0px;
+}
+body#tinymce.wp-editor p.no_margin {
+	margin-bottom: 0px;
+}
+
+body#tinymce.wp-editor h1, body#tinymce.wp-editor h2, body#tinymce.wp-editor h3, body#tinymce.wp-editor h4, body#tinymce.wp-editor h5, body#tinymce.wp-editor h6 {
+	padding: 10px 10px 8px 10px;
+	margin: 0px 0px 15px 0px;
+	color: #333333;
+	font-weight: 600;
+	text-align: left;
+	background: #fcd801;
+}
+
+body#tinymce.wp-editor h1 {
+	font-size: 24px;
+	line-height: 30px;
+}
+body#tinymce.wp-editor h2 {
+	font-size: 22px;
+	line-height: 28px;
+}
+body#tinymce.wp-editor h3 {
+	font-size: 21px;
+	line-height: 27px;
+}
+body#tinymce.wp-editor h4 {
+	font-size: 20px;
+	line-height: 26px;
+}
+body#tinymce.wp-editor h5 {
+	font-size: 19px;
+	line-height: 25px;
+}
+body#tinymce.wp-editor h6 {
+	font-size: 18px;
+	line-height: 24px;
+}
+
+body#tinymce.wp-editor .alignleft, body#tinymce.wp-editor  .alignright, body#tinymce.wp-editor .aligncenter {
+	display: block;
+}
+body#tinymce.wp-editor .alignleft {
+	margin: 7px 25px 15px 0px;
+	float: left;
+}
+body#tinymce.wp-editor .alignright {
+	margin: 7px 0px 15px 25px;
+	float: right;
+}
+body#tinymce.wp-editor .aligncenter {
+	margin: 15px auto;
+	clear: both;
+}
+body#tinymce.wp-editor img {
+	max-width: 100%;
+	height: auto;
+}
+body#tinymce.wp-editor img.alignleft {
+	margin-right: 25px;
+}
+body#tinymce.wp-editor img.alignright {
+	margin-left: 25px;
+}
+body#tinymce.wp-editor img.aligncenter {
+	margin: 0px auto 20px auto;
+}
+body#tinymce.wp-editor img.size-thumbnail, body#tinymce.wp-editor img.size-large, body#tinymce.wp-editor img.size-full {
+	width: auto;
+}
+body#tinymce.wp-editor img.size-medium {
+	max-width: 40%;
+}
+.page_content img.size-full {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+}
+
+body#tinymce.wp-editor .gallery-item {
+	padding: 10px !important;
+	margin: 0px !important;
+}
+body#tinymce.wp-editor .gallery-item img {
+	width: 100% !important;
+	height: auto !important;
+	border: none !important;
+}
+
+body#tinymce.wp-editor blockquote {
+	padding: 5px 0px 5px 15px;
+	margin: 0px 0px 25px 0px;
+	clear: both;
+	font-size: 15px;
+	border-left: 3px solid #fcd801;
+}
+body#tinymce.wp-editor blockquote.blockquote-reverse {
+	padding: 5px 15px 5px 0px;
+	border-left: none;
+	border-right: 3px solid #fcd801;
+}
+body#tinymce.wp-editor blockquote p {
+	margin-bottom: 10px;
+}
+body#tinymce.wp-editor blockquote footer {
+	display: block;
+	font-size: 80%;
+	line-height: 1.42857143;
+	font-style: italic;
+	color: #aaaaaa;
+}
+
+body#tinymce.wp-editor .bg-primary, body#tinymce.wp-editor .bg-success, body#tinymce.wp-editor .bg-info, body#tinymce.wp-editor .bg-warning, body#tinymce.wp-editor .bg-danger {
+	padding: 15px;
+}
+body#tinymce.wp-editor .bg-primary {
+    color: #fff;
+    background-color: #337ab7;
+}
+body#tinymce.wp-editor .bg-success {
+    background-color: #dff0d8;
+}
+body#tinymce.wp-editor .bg-info {
+    background-color: #d9edf7;
+}
+body#tinymce.wp-editor .bg-warning {
+    background-color: #fcf8e3;
+}
+body#tinymce.wp-editor .bg-danger {
+    background-color: #f2dede;
+}
+
+body#tinymce.wp-editor .alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+body#tinymce.wp-editor .alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+body#tinymce.wp-editor .alert-info {
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    color: #31708f;
+}
+body#tinymce.wp-editor .alert-warning {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+body#tinymce.wp-editor .alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+body#tinymce.wp-editor ul, body#tinymce.wp-editor ol {
+	position: relative;
+	padding: 0px;
+	margin: 0px 0px 15px 0px;
+	list-style-type: none;
+}
+
+body#tinymce.wp-editor ul li {
+	padding: 3px 0px 5px 25px;
+	margin: 0px;
+	position: relative;
+	list-style-type: none;
+}
+body#tinymce.wp-editor ul li:before {
+	content: "\f00c";
+	display: inline-block;
+	position: absolute;
+	top: 8px;
+	left: 0px;
+	font-family: Font Awesome\ 5 Free;
+	font-size: 14px;
+	line-height: 1;
+	font-style: normal;
+	font-weight: 900;
+	color: #fcca01;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body#tinymce.wp-editor ol {
+	counter-reset: li;
+}
+body#tinymce.wp-editor ol li {
+	margin: 0px;
+	padding: 3px 0px 3px 20px;
+	position: relative;
+	list-style-type: none;
+}
+body#tinymce.wp-editor ol li:before {
+	counter-increment: li;
+	content: counter(li);
+	display: inline-block;
+	position: absolute;
+	top: 3px;
+	left: 0px;
+	color: #fcd801;
+}
+
+body#tinymce.wp-editor .row {
+	margin-left: -15px;
+	margin-right: -15px;
+	outline: 1px dashed #aaaaaa;
+}
+body#tinymce.wp-editor .row:before {
+	content: " ";
+	display: table;
+}
+body#tinymce.wp-editor .row:after {
+	content: " ";
+	display: table;
+    clear: both;
+}
+body#tinymce.wp-editor .col-md-6 {
+	float: left;
+	width: 50%;
+	position: relative;
+	min-height: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	outline: 1px dashed #99c9e0;
+}

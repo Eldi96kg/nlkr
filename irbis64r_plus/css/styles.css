@@ -1,0 +1,194 @@
+
+body {
+font-family:Arial,Helvetica,sans-serif;
+}
+
+
+A#spec1:hover {
+	text-decoration : underline;
+}
+
+A#spec1 {
+	color : Blue;
+	text-decoration : none;
+}
+
+.topcell {
+	width : 100%;
+	background : #F7F3F7;
+	border-bottom : solid #DEDBDE 1;
+	list-style-position : inside;
+}
+.topcelltext {
+	font : 11px Tahoma;
+	text-align : left;
+	color : Blue;
+}
+.SearchCell {
+	background : #D6E7FF;
+	width : 100%;
+	list-style-position : outside;
+	border-left : 1px solid #73A2EF;
+	border-right : 1px solid #73A2EF;
+	border-top : 1px solid #73A2EF;
+}
+.ClassifiersCell {
+	width : 100%;
+	list-style-position : inside;
+	border-left : 1px solid #73A2EF;
+	border-right : 1px solid #73A2EF;
+	border-bottom : 1px solid #73A2EF;
+	font : bold 13px sans-serif;
+	text-align : left;
+	padding-left : 7px;
+	padding-top : 3px;
+	padding-bottom : 3px;
+}
+.SearchDBList{
+	width : 100%;
+	border-left : 1px solid #FFB31A;
+	border-top : 1px solid #FFB31A;
+	border-right : 1px solid #FFB31A;
+	height : 30px;
+	background-color : #FFFFDB;
+}
+.CurrentDB{
+	padding-left : 3px;
+	padding-right : 3px;
+	height : 19px;
+}
+div.normal{
+	width: 100%;
+	font-family: Arial;
+	background: white;
+	font-size : 14px;
+	font-weight : normal;
+	color : black;
+	border: 1px white;
+	padding: 2px 4px 2px 4px;
+}	
+div.over{
+	width: 100%;
+	font-family: Arial;
+	background: #F7F7F7;
+	font-size : 14px;
+	font-weight : normal;
+	color : #00309C;
+	border: 1px solid #D6E7FF;
+	padding: 1px 3px 1px 3px;
+}	
+div.NearestMFN{
+	font-family: Arial;
+	background: #F7F3FF;
+	font-size : 12px;
+	font-weight : normal;
+	color : black;
+	font-style: normal;
+	text-align: left;
+	border-bottom : 1px solid #9C71CE;
+	border-left : 1px solid #9C71CE;
+	border-right : 1px solid #9C71CE;
+	padding-bottom : 7px;
+	padding-left : 7px;
+	padding-right : 7px;
+	padding-top : 7px;
+}
+#NearestMFNHeader {
+	font: bold 14px Arial, Helvetica, sans-serif;
+	color: White;
+	width : 100%;
+	background : #9C71CE;
+	border : 1px solid #9C71CE;
+	padding-top : 2px;
+	padding-bottom : 2px;
+}
+SPAN.RangeLinkSelected {
+	background : #D6E7FF;
+	padding-left : 10px;
+	padding-right : 10px;
+	font : bold 13px sans-serif;
+}
+SPAN.RangeLinkDisplayed {
+	background-color : #0075EF;
+	padding-left : 10px;
+	padding-right : 10px;
+	font : bold 13px sans-serif;
+	text-decoration : none;
+	color: White;
+	border : 1px solid #004573;
+}
+SPAN.RangeLinkNormal {
+	padding-left : 10px;
+	padding-right : 10px;
+	font : 13px sans-serif;
+	text-decoration : none;
+	color: #00309C;
+}
+SPAN.RequestCaption {
+	background : #EFF7FF;
+	width : 100%;
+	color : #395573;
+	font : bold 15px sans-serif;
+	height : 30px;
+	padding-top : 6px;
+	padding-left : 6px;
+}
+
+
+.bottomcell {
+	width : 100%;
+	border-top : 1px solid #BDD3E7;
+	list-style-position : inside;
+	text-align : center;
+	font-size : 11px;
+}
+
+.bottomcellN {
+	width : 100%;
+	border-bottom : 1px solid #BDD3E7;
+	list-style-position : inside;
+	text-align : left;
+	font-size : 14px;
+}
+
+
+table.advanced{
+        font-size:8pt; 
+}
+
+.portion
+{
+   cursor: pointer;
+   color: blue;
+   font-family: Verdana;
+   font-size: 10pt;   
+}
+.current-portion
+{
+   font-family: Verdana;
+   font-size: 10pt;
+   font-weight: bold;
+   background-color: #FADF85;
+}
+
+.sorting
+{
+   cursor: pointer;
+   color: blue;
+   font-size: 8pt;   
+}
+.current-sorting
+{
+   font-size: 8pt;
+   font-weight: bold;
+}
+
+.book-viewer-toolbar
+{
+	background-color: #EEEEEE;
+}
+
+.book-viewer-toolbar-panel-label
+{
+	font-size: 12px;
+}

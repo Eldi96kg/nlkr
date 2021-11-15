@@ -1,0 +1,92 @@
+/*********************************************************************************************************************************** General */
+.wrap *, .wrap :after, .wrap  :before {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+.wrap a:focus {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+
+input.rimar_save_button {
+	padding: 0px 40px !important;
+	margin-top: 5px !important;
+}
+
+
+/*********************************************************************************************************************************** partners table */
+table.rimar_partners_sortable {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+}
+table.rimar_partners_sortable td {
+	padding: 10px;
+	vertical-align: middle;
+	background: #fff;
+	border: 1px solid #dddddd;
+	border-bottom: 5px solid #f1f1f1;
+}
+
+.rimar_partners_img {
+	width: 200px;
+	text-align: center;
+}
+.rimar_partners_img img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.rimar_partners_select {
+	text-align: center;
+}
+
+table.rimar_partners_sortable label {
+	display: block;
+	margin-bottom: 5px;
+	font-weight: 500;
+	color: #555;
+}
+.rimar_partners_field {
+	display: block;
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.rimar_partners_sort {
+	width: 40px;
+	color: #777;
+	background: #f1f1f1;
+	cursor: move;
+}
+.rimar_partners_sort:hover {
+	color: #fbae00;
+}
+
+.rimar_partners_remove {
+	width: 40px;
+	background: #f1f1f1;
+}
+.rimar_partners_remove a {
+	display: inline-block;
+	color: red;
+}
+.rimar_partners_remove a:hover {
+	color: white;
+	background: red;
+}
+
+.rimar_partners_add {
+	margin: 15px 0px 20px 0px;
+}

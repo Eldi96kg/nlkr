@@ -1,0 +1,24 @@
+#adminmenu li.wp-menu-separator {
+	height: 0;
+	margin: 15px 0px 0px 0px;
+	background: #444444;
+}
+
+#adminmenu a.admin_subtitle, #adminmenu a.admin_subtitle:link, #adminmenu a.admin_subtitle:visited, #adminmenu a.admin_subtitle:hover, #adminmenu a.admin_subtitle:focus, #adminmenu a.admin_subtitle:active {
+	font-weight: bold;
+	font-style: italic;
+	text-align: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	cursor: default;
+	background-color: #444444 !important;
+	color: #dddddd !important;
+}
+#adminmenu a.admin_subtitle div.wp-menu-image {
+	display: none;
+}
+
+
+.acf_postbox .field textarea {
+    min-height: auto;
+}
